@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "kiro": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Kiro Gateway",
+      "options": {
+        "baseURL": "http://127.0.0.1:8000/v1",
+        "apiKey": "my-super-secret-password-123"
+      },
+      "models": {
+        "claude-sonnet-4.5": {
+          "name": "Claude Sonnet 4.5"
+        },
+        "claude-haiku-4.5": {
+          "name": "Claude Haiku 4.5"
+        },
+        "claude-sonnet-4.6": {
+          "name": "Claude Sonnet 4.6"
+        }
+      }
+    }
+  }
+}
